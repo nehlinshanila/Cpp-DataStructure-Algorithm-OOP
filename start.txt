@@ -1,0 +1,8 @@
+ method 1
+ first go up to terminal and Run Build task. the select g++
+ then on down terminal ./nameoffile.cpp
+ then type ./a.exe 
+
+ method 2
+ first go to terminal and type g++ nameoffile.exe
+ the type ./a.exe
