@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// mom gives me about x money and i want to input x. dad gives me y money and i want to input y
+//? mom gives me about x money and i want to input x. dad gives me y money and i want to input y
 int main()
 {
 

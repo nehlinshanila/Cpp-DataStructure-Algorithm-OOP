@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// FIND WHERE YOU CAN GO BASED ON YOUR SAVINGS================================================
+//? FIND WHERE YOU CAN GO BASED ON YOUR SAVINGS
 
 // int main() {
 
@@ -33,7 +33,7 @@ using namespace std;
 // }
 
 
-//FIND MAXIMUM OF 3 NUMBERS =================================================================
+//?FIND MAXIMUM OF 3 NUMBERS
 
 // int main(){
 
@@ -62,8 +62,7 @@ using namespace std;
 //     return 0;
 // }
 
-//FIND IF NUMBER IS ODD OR EVEN================================================================
-
+//?FIND IF NUMBER IS ODD OR EVEN
 int main(){
     int a;
     cin>>a;

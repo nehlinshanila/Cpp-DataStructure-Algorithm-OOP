@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// to print datatypes in their byte sizes
+//? to print datatypes in their byte sizes
 int main(){
 
     int a; //variable declaration
@@ -19,7 +19,7 @@ int main(){
     bool d;
     cout<<"size of bool: "<<sizeof(d)<<endl;
 
-// declaring type modifiers/ modify length of datatype
+//? declaring type modifiers/ modify length of datatype
     short int si;
     long int li;
     cout<<"size of int: "<<sizeof(si)<<endl;
