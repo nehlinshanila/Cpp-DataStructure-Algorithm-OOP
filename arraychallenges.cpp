@@ -394,37 +394,39 @@
 
 // ?PAIR SUM PROBLEM  FOR BETTER TIME COMPLEXITY
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-bool pairsSum(int array[], int n, int k)
-{
-    int low=0;
-    int high=n-1;
+// bool pairsSum(int array[], int n, int k)
+// {
+//     int low=0;
+//     int high=n-1;
 
-    while(low<high){
-        if(array[low]+array[high]==k){
-            cout<<low<<" "<<high<<endl;
-            return true;
-        }
-        else if(array[low]+array[high]>k){
-            high--;
-        }
-        else{
-            low++;
-        }
-    }
-}
+//     while(low<high){
+//         if(array[low]+array[high]==k){
+//             cout<<low<<" "<<high<<endl;
+//             return true;
+//         }
+//         else if(array[low]+array[high]>k){
+//             high--;
+//         }
+//         else{
+//             low++;
+//         }
+//     }
+// }
 
-int main()
-{
+// int main()
+// {
 
-    int array[] = {2, 4, 7, 11, 14, 16, 20, 21};
-    int k = 31;
+//     int array[] = {2, 4, 7, 11, 14, 16, 20, 21};
+//     int k = 31;
 
-    cout << pairsSum(array, 8, k) << endl;
+//     cout << pairsSum(array, 8, k) << endl;
 
-    return 0;
-}
+//     return 0;
+// }
 //* time complexity O(n) is sorted array
 // else sorting complexity will come in between
+
+
