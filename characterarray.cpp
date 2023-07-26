@@ -105,8 +105,8 @@ int main()
         }
     }
     cout << maxLen << endl;
-    for(int i=0;i<maxLen;i++){
-        cout<<arr[i+maxst];
+    for(int i=0; i < maxLen; i++){
+        cout << arr[i + maxst];
     }
 
     return 0;

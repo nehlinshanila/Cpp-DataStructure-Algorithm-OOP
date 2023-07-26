@@ -1,36 +1,18 @@
 #include <iostream>
-#include <cstdio>
+
 using namespace std;
 
-int max_of_four(int a, int b, int c, int d)
-{
-    int max = a;
+int main(){
 
-    if (b > max)
-    {
+    int n;
+    cin>>n;
 
-        max = b;
+    if(n%2 == 0){
+        cout<<"Yes";
     }
-    else if (c > max)
-    {
-
-        max = c;
+    else {
+        cout<<"No";
     }
-    else if (d > max)
-    {
-
-        max = d;
-    }
-
-    return max;
-}
-
-int main()
-{
-    int a, b, c, d;
-    scanf("%d %d %d %d", &a, &b, &c, &d);
-    int ans = max_of_four(a, b, c, d);
-    printf("%d", ans);
 
     return 0;
 }
