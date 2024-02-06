@@ -1,7 +1,7 @@
 // ? FIND FACTORIAL OF TWO NUMBERS
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
 // int main(){
 // // very lengthy therefore we will use function
